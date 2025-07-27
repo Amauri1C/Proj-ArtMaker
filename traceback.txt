@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 40, in script
+    if boolean1 < 0:
+  File "game/script.rpy", line 40, in <module>
+    if boolean1 < 0:
+NameError: name 'boolean1' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 40, in script
+    if boolean1 < 0:
+  File "C:\Users\amaur\AppData\Local\RenPy\renpy-8.3.7-sdk\renpy\ast.py", line 1856, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\amaur\AppData\Local\RenPy\renpy-8.3.7-sdk\renpy\python.py", line 1218, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\amaur\AppData\Local\RenPy\renpy-8.3.7-sdk\renpy\python.py", line 1211, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 40, in <module>
+    if boolean1 < 0:
+NameError: name 'boolean1' is not defined
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.3.7.25031702
+proj ArtMaker 1.0
+Sat Jul 26 23:05:29 2025
